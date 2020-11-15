@@ -16,3 +16,4 @@ def get_game_id(index):
     return LOL_API_DATA[index].get("gameId")
 def get_champ_id(index):
     return LOL_API_DATA[index].get("champion")
+

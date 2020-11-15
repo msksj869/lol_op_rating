@@ -9,12 +9,14 @@ headers={
     "Origin": "https://developer.riotgames.com",
     "X-Riot-Token": APIKEY
      }
-API="https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + name
-getAPI=requests.get(API, headers=headers)
-LOL_API_DATA=getAPI.json()
 def get_account_id():
+    API="https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + name
+    getAPI=requests.get(API, headers=headers)
+    LOL_API_DATA=getAPI.json()
     return LOL_API_DATA["accountId"]
 def return_key():
     return APIKEY
 def return_name():
     return name
+
+
