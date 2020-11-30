@@ -1,0 +1,11 @@
+C:\Users\ksh970\source\repos\project\project\bin\Debug\project.exe.config
+C:\Users\ksh970\source\repos\project\project\bin\Debug\project.exe
+C:\Users\ksh970\source\repos\project\project\bin\Debug\project.pdb
+C:\Users\ksh970\source\repos\project\project\bin\Debug\Guna.UI2.dll
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.csprojAssemblyReference.cache
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.Form1.resources
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.Properties.Resources.resources
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.csproj.GenerateResource.cache
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.csproj.CopyComplete
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.exe
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.pdb
