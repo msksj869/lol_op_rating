@@ -9,3 +9,7 @@ C:\Users\ksh970\source\repos\project\project\obj\Debug\project.csproj.GenerateRe
 C:\Users\ksh970\source\repos\project\project\obj\Debug\project.csproj.CopyComplete
 C:\Users\ksh970\source\repos\project\project\obj\Debug\project.exe
 C:\Users\ksh970\source\repos\project\project\obj\Debug\project.pdb
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.UserControls.main.resources
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.UserControls.manual.resources
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.UserControls.notice.resources
+C:\Users\ksh970\source\repos\project\project\obj\Debug\project.UserControls.white.resources

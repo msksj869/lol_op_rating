@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace project.UserControls
 {
-	public partial class UC_Inbox : UserControl
+	public partial class white : UserControl
 	{
-		public UC_Inbox()
+		public white()
 		{
 			InitializeComponent();
 		}
