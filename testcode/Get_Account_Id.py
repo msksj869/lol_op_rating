@@ -1,7 +1,7 @@
 import requests
 from urllib import parse
 name=parse.quote(input("검색을 원하는 유저 이름을 입력하세요"))
-APIKEY="RGAPI-4a16839e-3e5c-4b4e-8b13-1e44b8d621d7"
+APIKEY="RGAPI-43184546-b903-4eb3-a170-d37ed1de39ff"
 headers={
      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",

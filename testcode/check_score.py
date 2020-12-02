@@ -16,7 +16,7 @@ def op_score(ac_id):
     score=0
     for i in range(0,5):
         score+=first_step(DATA[i].get("gameId"),ac_id)
-    return score
+    return round(score,2)
 
 def first_step(gameid,ac_id):
     API="https://kr.api.riotgames.com/lol/match/v4/matches/" + str(gameid)
