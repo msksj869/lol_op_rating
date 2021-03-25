@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta name="keywords" content="GAME, SCORE, LOL, LEAGE OF LEGEND">
+    <meta name="description" content="ARE YOT TROLL?">
+    <title>TROLL GG</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/modal-video.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+    <style>
+
+        .navbar{
+            background-color: #2E9AFE !important;
+        }
+        .btn-primary{
+            color : white !important;
+        }
+        body{
+            background: #FAFAFA;
+        }
+        .column#caption {
+            position: relative;
+        }
+        .column#caption .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            opacity: 0;
+            transition: all 0.8s ease;
+        }
+        .column#caption .text h1 {
+            margin: 0;
+            color: white;
+        }
+        .column#caption:hover .text {
+            opacity: 1;
+
+        }
+        .column#caption:hover img {
+            -webkit-filter: sepia(90%);
+        }
+        .column#caption {
+            position: relative;
+        }
+        .column#caption .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            opacity: 0;
+            transition: all 0.8s ease;
+        }
+        .column#caption .text h1 {
+            margin: 0;
+            color: white;
+        }
+        .column#caption:hover .text {
+            opacity: 1;
+
+        }
+        .column#caption:hover img {
+            -webkit-filter: opacity(50%);
+        }
+    </style>
+</head>
+<body>
+
+<style type="text/css">
+    hr.new4 {
+        border: 3px solid black;
+    }
+    img{
+        max-width: 100%;
+        height: auto !important;
+    }
+    footer { padding: 200px 0; text-align: center; background-color: #2E9AFE !important; color:white;
+    }
+
+    footerul li { display: inline; }
+    footerul a { font-size: 18px; margin: 0 15px; }
+    a:link { color: #513926; }
+    a:visited { color: #513926; }
+    a:hover { color: #7F593C; }
+</style>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/"><img src="images/home.png" width="40" height="40" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand" href="/"><strong>TROLL.GG</strong></a>
+
+        </div>
+    </nav>
+</header>
+
+
+
+<main class="container my-1 "  >
+
+    <div class="pricing-header px-3 py-1 pt-md-3 pb-md-1 mx-auto text-center">
+<%if(data[5]>16){%>
+        <h4 class="display-6 font-weight-bold" ><%=userid%>님은 에이스 입니다.</h4>
+<%}%>
+        <%if(data[5]<10){%>
+        <h4 class="display-6 font-weight-bold" ><%=userid%>님은 트롤 입니다.</h4>
+        <%}%>
+        <%if(data[5]>=10&&data[5]<=16) {%>
+        <h4 class="display-6 font-weight-bold" ><%=userid%>님은 일반유저 입니다.</h4>
+        <%}%>
+    </div>
+
+
+    <hr class="my-3" style="color: white" >
+    <section id="examples" class="text-center" style="background-color: white">
+        <div class="row">
+            <div class="col-3">
+                <%if(data[6]==0){%>
+                    <a href="#"data-toggle="modal" data-target="#ti" data-whatever="@mdo">
+                        <img src="images/브론즈.png" class="card-img-top" alt="..." >
+                    </a>
+                    <tr></tr>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#2E9AFE ">BRONZE</h5>
+                    </div>
+                <%}%>
+                <%if(data[6]==1){%>
+                    <a href="#"data-toggle="modal" data-target="#ti" data-whatever="@mdo">
+                        <img src="images/실버.png" class="card-img-top" alt="..." >
+                    </a>
+                    <tr></tr>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#2E9AFE ">SILVER</h5>
+                    </div>
+                <%}%>
+                <%if(data[6]==2){%>
+                    <a href="#"data-toggle="modal" data-target="#ti" data-whatever="@mdo">
+                        <img src="images/골드.png" class="card-img-top" alt="..." >
+                    </a>
+                    <tr></tr>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#2E9AFE ">GOLD</h5>
+                    </div>
+                <%}%>
+                <%if(data[6]==3){%>
+                    <a href="#"data-toggle="modal" data-target="#ti" data-whatever="@mdo">
+                        <img src="images/다이아.png" class="card-img-top" alt="..." >
+                    </a>
+                    <tr></tr>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#2E9AFE ">PLATINUM</h5>
+                    </div>
+                <%}%>
+                <%if(data[6]==4){%>
+                    <a href="#"data-toggle="modal" data-target="#ti" data-whatever="@mdo">
+                        <img src="images/플레.png" class="card-img-top" alt="..." >
+                    </a>
+                    <tr></tr>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#2E9AFE ">DIAMOND</h5>
+                    </div>
+                <%}%>
+                <%if(data[6]==5){%>
+                    <a href="#"data-toggle="modal" data-target="#ti" data-whatever="@mdo">
+                        <img src="images/마스터.png" class="card-img-top" alt="..." >
+                    </a>
+                    <tr></tr>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#2E9AFE ">MASTER</h5>
+                    </div>
+                <%}%>
+                <%if(data[6]==6){%>
+                    <a href="#"data-toggle="modal" data-target="#ti" data-whatever="@mdo">
+                        <img src="images/그랜드마스터.png" class="card-img-top" alt="..." >
+                    </a>
+                    <tr></tr>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#2E9AFE ">GRANDMASTER</h5>
+                    </div>
+                <%}%>
+                <%if(data[6]==7){%>
+                    <a href="#"data-toggle="modal" data-target="#ti" data-whatever="@mdo">
+                        <img src="images/챌린저.png" class="card-img-top" alt="..." >
+                    </a>
+                    <tr></tr>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:#2E9AFE ">CHALLEGER</h5>
+                    </div>
+                <%}%>
+
+
+            </div>
+
+            <div class="col-9">
+                <div class="row text-center">
+                    <div class="col-4">
+                        <img src="images/knife.png"    width="80" height="80">
+                        <hr class="my-3" >
+                        <h5>KILL</h5>
+                        <h5><%=data[0]%></h5>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/grave.png" width="80" height="80">
+                        <hr class="my-3" >
+                        <h5>DEATH</h5>
+                        <h5><%=data[1]%></h5>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/shield.png"width="80" height="80">
+                        <hr class="my-3" >
+                        <h5>ASSIST</h5>
+                        <h5><%=data[2]%></h5>
+                    </div>
+                    <hr class="my-3" style="color: white">
+                    <div class="col-4">
+                        <img src="images/candies.png"width="80" height="80">
+                        <hr class="my-3" >
+                        <h5>CS</h5>
+                        <h5><%=data[3]%></h5>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/view.png"width="80" height="80">
+                        <hr class="my-3" >
+                        <h5>VIEW</h5>
+                        <h5><%=data[4]%></h5>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/score.png"width="80" height="80">
+                        <hr class="my-3" >
+                        <h5>OP SCORE</h5>
+                        <h5><%=data[5]%></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="my-3" style="background-color: white">
+    <section id="carousel-3" class="text-center" style="background-color: white">
+
+        <div class="row">
+            <div class="col-6">
+                <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+            </div>
+            <div class="col-6">
+                <div id="chartContainer2" style="height: 370px; width: 100%;"></div>
+                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+            </div>
+        </div>
+        <hr class="my-3" style="color: white" >
+        <hr class="my-3" style="color: white" >
+        <hr class="my-3" style="color: white" >
+        <hr class="my-3" style="color: white" >
+        <hr class="my-3" >
+    </section>
+    <hr class="my-4" style="background-color: white">
+    <hr class="my-4" style="background-color: white">
+    <hr class="my-4" style="background-color: white">
+    <hr class="my-4" style="background-color: white">
+    <hr class="my-4" style="background-color: white">
+
+    </section>
+</main>
+
+<footer class="mastfoot mt-auto " id="foot">
+
+</footer>
+
+<div class="modal fade" id="ti" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">TI STEP</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+
+                    <div class="col-3">
+                        <img src="images/브론즈.png"width="500" height="500">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/실버.png" width="150" height="150">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/골드.png" width="150" height="150">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/플레.png"width="150" height="150">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/다이아.png"width="150" height="150">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/마스터.png"width="150" height="150">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/그랜드마스터.png"width="150" height="150">
+                    </div><div class="col-3">
+                        <img src="images/챌린저.png"width="150" height="150">
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary"data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="javascripts/bootstrap.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+<script>
+    window.onload = function () {
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            theme: "light2", // "light1", "light2", "dark1", "dark2"
+
+            data: [{
+                type: "column",
+                showInLegend: true,
+                legendMarkerColor: "grey",
+                legendText: "IN GAME DATA",
+                dataPoints: [
+                    { y: Number(<%=data[0]%>), label: "kill" },
+                    { y: Number(<%=data[1]%>),  label: "death" },
+                    { y: Number(<%=data[2]%>),  label: "assist" },
+
+                ]
+            }]
+        });
+        var chart1 = new CanvasJS.Chart("chartContainer2", {
+            animationEnabled: true,
+            theme: "light2", // "light1", "light2", "dark1", "dark2"
+            data: [{
+                type: "column",
+                showInLegend: true,
+                legendMarkerColor: "grey",
+                legendText: "IN GAME DATA",
+                dataPoints: [
+                    { y: Number(<%=data[3]%>),  label: "cs" },
+                    { y: Number(<%=data[4]%>),  label: "view" },
+                    { y: Number(<%=data[5]%>),  label: "opscore" }
+                ]
+            }]
+        });
+        chart.render();
+        chart1.render();
+
+    }
+
+
+</script>
+</body>
+</html>
